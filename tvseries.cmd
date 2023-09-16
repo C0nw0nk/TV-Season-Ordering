@@ -1,7 +1,9 @@
 @echo off & setLocal EnableDelayedExpansion
 
 :: Set the video formats to search for
-set video_formats="-key1 .mkv -key2 .mp4 -key3 .avi"
+:: set video_formats="-key1 .mkv -key2 .mp4 -key3 .avi"
+:: This will search for all video file extensions not just specific ones 
+set video_formats="-key1 ."
 
 :: End Edit DO NOT TOUCH ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOUR DOING!
 
